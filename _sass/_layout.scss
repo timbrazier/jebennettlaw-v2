@@ -123,6 +123,15 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    text-align: center;
+    background-color: lighten($grey-color, 40%);
+}
+
+.footer-text{
+  font-size: 12px;
+  float: none !important;
+  margin-top: $spacing-unit / 2;
+  margin-bottom: 0;
 }
 
 .footer-heading {
@@ -144,7 +153,6 @@
 }
 
 .footer-col {
-    float: left;
     margin-bottom: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
 }
@@ -263,3 +271,34 @@
         }
     }
 }
+
+
+/**
+ * Page header
+ */
+
+.page-heading{
+  font-weight: 600;
+  font-size: 12px;
+  padding: $spacing-unit / 4 $spacing-unit;
+  color: $white-color;
+  background: rgba($green-color, 0.8);;
+  margin-top: -250px;
+  position: absolute;
+  margin-left: $spacing-unit * 2 !important;
+}
+
+
+/**
+ * Home page
+ */
+
+ .home{
+   margin: 0 auto;
+   width: 89%;
+ }
+
+ .home-feature{
+   border-bottom: 5px solid $green-color;
+   padding-bottom: $spacing-unit;
+ }

@@ -8,6 +8,7 @@
 // Our variables
 $base-font-family: 'Roboto', sans-serif;
 $base-font-size:   16px;
+$button-font-size: 14px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
@@ -23,7 +24,7 @@ $grey-color-dark:  darken($grey-color, 25%);
 
 $green-color:      #B9D137;
 $green-color-light: lighten($green-color, 40%);
-$green-color-dark:  darken($green-color, 25%);
+$green-color-dark:  darken($green-color, 10%);
 
 $white-color:      #fff;
 

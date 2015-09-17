@@ -1,15 +1,20 @@
 <footer class="site-footer">
 
   <div class="wrapper">
-    <div class="footer-col  footer-col-3">
-      <p class="text">{{ site.description }}</p>
-    </div>
     <div class="trigger">
-      {% for page in site.pages %}
+      <a href="/">Home</a>
+      <a href="/what-we-do">What we do</a>
+      <a href="/about-us">About</a>
+      <a href="/news">News</a>
+      <a href="/contact-us">Contact us</a>
+      <!-- {% for page in site.pages %}
       {% if page.title %}
       <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
       {% endif %}
-      {% endfor %}
+      {% endfor %} -->
+    </div>
+    <div class="footer-col">
+      <p class="footer-text">{{ site.description }}</p>
     </div>
   </div>
 
