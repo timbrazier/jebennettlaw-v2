@@ -98,7 +98,28 @@ a {
 
     &:hover {
         color: $text-color;
-        text-decoration: underline;
+        text-decoration: none;
+    }
+}
+
+/**
+ * Site nav Links
+ */
+
+.site-nav a {
+    color: $text-color;
+    text-decoration: none;
+    margin-left: $spacing-unit;
+
+    &:visited {
+        color: $text-color;
+    }
+
+    &:hover {
+        color: $green-color;
+        text-decoration: none;
+        padding-bottom: 5px;
+        border-bottom: 3px solid $green-color;
     }
 }
 
@@ -154,10 +175,7 @@ pre {
  * Wrapper
  */
 .wrapper {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-    margin-right: auto;
-    margin-left: auto;
+
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
     @extend %clearfix;
@@ -185,6 +203,17 @@ pre {
 }
 
 
+/**
+ * Alignment
+ */
+
+ .left{
+   float: left;
+ }
+
+ .right{
+   float: right;
+}
 
 /**
  * Icons

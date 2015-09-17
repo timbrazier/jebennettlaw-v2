@@ -2,9 +2,12 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
+    border-bottom: 5px solid $green-color;
+    min-height: 80px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: $white-color;
+    padding-top: $spacing-unit;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -16,6 +19,7 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+    display: none;
 
     &,
     &:visited {
@@ -25,7 +29,8 @@
 
 .site-nav {
     float: right;
-    line-height: 56px;
+    line-height: 50px;
+    font-weight: 400;
 
     .menu-icon {
         display: none;
@@ -74,18 +79,42 @@
             display: none;
         }
 
+        .trigger a{
+          color: $text-color;
+        }
+
         &:hover .trigger {
             display: block;
-            padding-bottom: 5px;
+            padding-bottom: 10px;
+            color: $text-color;
         }
 
         .page-link {
             display: block;
             padding: 5px 10px;
         }
+
+
     }
 }
 
+.call-us{
+  background-color: $green-color;
+  color: $white-color;
+  font-weight: 400;
+  float: right;
+  padding: 5px 20px;
+  margin-top: 32px;
+  height: 30px;
+}
+
+.logo{
+  float: left;
+}
+
+.hero-image img{
+  margin-top: -600px;
+}
 
 
 /**
