@@ -1,0 +1,125 @@
+---
+layout: page
+title: Court of protection
+permalink: /court-of-protection/
+---
+<div class="page-wrapper">
+<div class="row">
+<div class="eight columns">
+Jane Bennett, is a member of the Court of Protection’s national panel of professional deputies.  Jane is regularly appointed by the Court of Protection in circumstances where vulnerable people require representation in order to manage their property and affairs and their care and welfare.  This could be due to a brain injury; illness; clinical negligence or age-related issues.
+
+JE Bennett’s team’s has a tight rein on spending and our adherence to fiscal budgeting promotes the assiduous handling of our clients affairs and personal interests. 
+
+We also act for local authorities in Court of Protection, safeguarding and other matters that arise in relation to vulnerable members of society. In addition, we advise lay deputies to ensure every aspect of the vulnerable person’s needs are appropriately managed.
+
+{% include trusts-story-quote.html %}
+
+<h2 id="trusts">Trusts for the vulnerable</h2>
+
+Where assets and/or compensation monies require protection either to preserve eligibility for state benefits, or in general, we advise on the full range of trusts for the vulnerable and disabled. Where we act as professional trustee, our team streamlines the administration of the trust, including giving attention where necessary to state benefit claims, and  tax and trust annual returns to Her Majesty’s Revenue & Customs.
+
+<h2 id="probate">Probate</h2>
+
+In addition to advice to family members on the death of a loved one, we offer professional Executor/Administrator and trusteeship services to families/beneficiaries, at this difficult time.
+
+<h2 id="deputies">Lay Deputies and Professional Deputies</h2>
+<h3>What are they? And what’s the difference?</h3>
+<ul>
+<li>
+they’ve had a serious brain injury or illness
+</li>
+<li>
+they have dementia
+</li>
+<li>
+they have severe learning disabilities
+</li>
+</ul>
+
+A lay deputy is usually a friend or family member of the person who lacks the ability to make decisions for themselves. People may lack mental capacity because, for example: 
+
+A prospective lay deputy makes an application to the Court of Protection to become a deputy for the person in question and, if successful, is empowered to make decisions on their behalf.
+
+There are 2 types of deputy:
+<ul>
+<li>
+property and financial affairs, eg paying bills, organising a pension
+</li>
+<li>
+personal welfare, eg making decisions about medical treatment and how someone is looked after
+</li>
+</ul>
+
+It is also possible for the court of protection to appoint a professional deputy. A professional deputy has virtually identical responsibilities to those of a lay deputy but is a professionally employed person who has the expertise to deal with the challenges of the role. 
+
+A professional deputy will work closely with the person’s family at all times, but it is important to note their first responsibility is always to the person they are deputy for.
+
+<h3>Duties as a professional deputy often include:</h3>
+<ul>
+<li>
+Purchasing a property
+</li>
+<li>
+Arranging for a property to be purchased or adapted to meet the person’s needs
+</li>
+<li>
+The purchase of an adapted vehicle or equipment
+</li>
+<li>
+Ensuring that the person is receiving all benefits that they are entitled to
+</li>
+<li>
+Employing a case manager to oversee a care team
+</li>
+<li>
+Arranging holidays with support staff
+</li>
+<li>
+Preparation of a statutory will (for people aged 18 and over)
+</li>
+<li>
+Submission of annual accounts to the Office of the Public Guardian and completion of tax returns
+</li>
+</ul>
+
+</div>
+
+
+<div class="four columns sidebar">
+<h2>What we do</h2>
+<ul>
+<li>
+<a href="#trusts">Trusts for the vulnerable</a>
+</li>
+<li>
+<a href="#probate">Probate</a>
+</li>
+<li>
+<a href="#deputies">Lay deputies and professional deputies</a>
+</li>
+</ul>
+
+<h2>Who we help</h2>
+<ul>
+<li>
+The elderly
+</li>
+<li>
+Other people
+</li>
+</ul>
+
+<h2>Other services</h2>
+<ul>
+<li>
+Elderly client law
+</li>
+<li>
+Expert witness service
+</li>
+</ul>
+
+</div>
+
+</div>
+</div>

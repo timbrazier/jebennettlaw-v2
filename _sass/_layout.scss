@@ -102,10 +102,10 @@
   background-color: $green-color;
   color: $white-color;
   font-weight: 400;
-  float: right;
+  right: 10%;
   padding: 5px 20px;
-  margin-top: 32px;
   height: 30px;
+  position: absolute;
 }
 
 .logo{
@@ -202,10 +202,6 @@
     padding: $spacing-unit 0;
 }
 
-.page-heading {
-    font-size: 20px;
-}
-
 .post-list {
     margin-left: 0;
     list-style: none;
@@ -277,28 +273,112 @@
  * Page header
  */
 
+.header-wrapper{
+  background: url(/images/hero.jpg) no-repeat;
+}
+
 .page-heading{
   font-weight: 600;
   font-size: 12px;
   padding: $spacing-unit / 4 $spacing-unit;
   color: $white-color;
-  background: rgba($green-color, 0.8);;
-  margin-top: -250px;
-  position: absolute;
-  margin-left: $spacing-unit * 2 !important;
+  background: rgba($green-color, 0.8);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 100px;
 }
 
+.page-wrapper{
+  width: 80%;
+  margin: 0 auto;
+}
 
 /**
  * Home page
  */
 
- .home{
+ .home-wrapper{
+   width: 85%;
    margin: 0 auto;
-   width: 89%;
  }
 
  .home-feature{
    border-bottom: 5px solid $green-color;
    padding-bottom: $spacing-unit;
+   margin-bottom: $spacing-unit * 2;
  }
+
+ .home-feature-2{
+   border-bottom: 5px solid $green-color;
+   padding: $spacing-unit;
+   background-color: $grey-color-lighter;
+ }
+
+ /**
+  * Content page styles
+  */
+
+  .page-title{
+    font-weight: 400;
+    font-size: 46px;
+    padding: $spacing-unit / 4 $spacing-unit;
+    padding-left: $spacing-unit * 5;
+    color: $white-color;
+    background: rgba($green-color, 0.8);
+    margin-top: -113px;
+    position: absolute;
+    left: 0;
+  }
+
+  /**
+   * Sidebar styles
+   */
+
+.sidebar{
+  background: $grey-color-lighter;
+  padding: $spacing-unit / 2;
+  border-bottom: 5px solid $green-color;
+
+    h2{
+      margin-top: 0;
+    }
+
+    ul{
+      list-style: none;
+      margin-left: 0;
+    }
+
+    a{
+      color: $text-color;
+
+        &:hover{
+          color: $green-color;
+        }
+    }
+  }
+
+  /**
+   * Quote styles
+   */
+
+   .quote{
+     background: $green-color;
+     color: $white-color;
+     margin-top: $spacing-unit;
+     margin-bottom: $spacing-unit;
+     padding: $spacing-unit;
+     border-bottom: 10px solid $green-color-dark;
+     font-size: 24px;
+     font-weight: 500;
+
+       a{
+         color: $white-color;
+         float: right;
+         font-size: 16px;
+         font-weight: 300;
+
+         &:hover{
+           text-decoration: underline;
+         }
+       }
+   }

@@ -66,6 +66,11 @@ h2 {
   font-size: 20px !important;
   margin-top: 20px; }
 
+h3 {
+  color: #B9D137;
+  font-size: 18px !important;
+  margin-top: 20px; }
+
 /**
  * Links
  */
@@ -312,10 +317,10 @@ input[type="button"].button-primary:focus {
   background-color: #B9D137;
   color: #fff;
   font-weight: 400;
-  float: right;
+  right: 10%;
   padding: 5px 20px;
-  margin-top: 32px;
-  height: 30px; }
+  height: 30px;
+  position: absolute; }
 
 .logo {
   float: left; }
@@ -388,9 +393,6 @@ input[type="button"].button-primary:focus {
 .page-content {
   padding: 30px 0; }
 
-.page-heading {
-  font-size: 20px; }
-
 .post-list {
   margin-left: 0;
   list-style: none; }
@@ -440,26 +442,90 @@ input[type="button"].button-primary:focus {
 /**
  * Page header
  */
+.header-wrapper {
+  background: url(/images/hero.jpg) no-repeat; }
+
 .page-heading {
   font-weight: 600;
   font-size: 12px;
   padding: 7.5px 30px;
   color: #fff;
   background: rgba(185, 209, 55, 0.8);
-  margin-top: -250px;
-  position: absolute;
-  margin-left: 60px !important; }
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 100px; }
+
+.page-wrapper {
+  width: 80%;
+  margin: 0 auto; }
 
 /**
  * Home page
  */
-.home {
-  margin: 0 auto;
-  width: 89%; }
+.home-wrapper {
+  width: 85%;
+  margin: 0 auto; }
 
 .home-feature {
   border-bottom: 5px solid #B9D137;
-  padding-bottom: 30px; }
+  padding-bottom: 30px;
+  margin-bottom: 60px; }
+
+.home-feature-2 {
+  border-bottom: 5px solid #B9D137;
+  padding: 30px;
+  background-color: whitesmoke; }
+
+/**
+ * Content page styles
+ */
+.page-title {
+  font-weight: 400;
+  font-size: 46px;
+  padding: 7.5px 30px;
+  padding-left: 150px;
+  color: #fff;
+  background: rgba(185, 209, 55, 0.8);
+  margin-top: -113px;
+  position: absolute;
+  left: 0; }
+
+/**
+ * Sidebar styles
+ */
+.sidebar {
+  background: whitesmoke;
+  padding: 15px;
+  border-bottom: 5px solid #B9D137; }
+  .sidebar h2 {
+    margin-top: 0; }
+  .sidebar ul {
+    list-style: none;
+    margin-left: 0; }
+  .sidebar a {
+    color: #666; }
+    .sidebar a:hover {
+      color: #B9D137; }
+
+/**
+ * Quote styles
+ */
+.quote {
+  background: #B9D137;
+  color: #fff;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+  border-bottom: 10px solid #98ad28;
+  font-size: 24px;
+  font-weight: 500; }
+  .quote a {
+    color: #fff;
+    float: right;
+    font-size: 16px;
+    font-weight: 300; }
+    .quote a:hover {
+      text-decoration: underline; }
 
 /**
  * Syntax highlighting styles
