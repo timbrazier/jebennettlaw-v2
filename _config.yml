@@ -3,10 +3,12 @@ title: JE Bennett Law
 email: me@timbrazier.co.uk
 description: > # this means to ignore newlines until "baseurl:"
   JE Bennett Law is a Limited company incorporated in England and Wales (No.7875908), and is authorised and regulated by the Solicitors Regulation Authority (No.565975)
-baseurl: "/jebennettlaw-v2/" # the subpath of your site, e.g. /blog/
-url: "/jebennettlaw-v2/" # the base hostname & protocol for your site
+baseurl: '/jebennettlaw-v2' # the subpath of your site, e.g. /blog/
+url: "http://timbrazier.github.io/jebennettlaw-v2" # the base hostname & protocol for your site
 twitter_username:
 github_username:
+
+permalink:        /jebennettlaw-v2/:title
 
 # Build settings
 markdown: kramdown
