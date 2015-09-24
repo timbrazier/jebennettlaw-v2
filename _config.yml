@@ -1,3 +1,8 @@
+
+
+
+
+
 # Dependencies
 markdown:         kramdown
 highighter:       true
@@ -8,7 +13,7 @@ permalink:        /jebennettlaw-v2/:title
 # Setup
 title:            JE Bennett Law
 tagline:          "Helping the vulnerable"
-description:      'site description here'
+description:      'JE Bennett Law is a Limited company incorporated in England and Wales (No.7875908), and is authorised and regulated by the Solicitors Regulation Authority (No.565975)'
 url:              http://timbrazier.github.io/jebennettlaw-v2
 
 author:
