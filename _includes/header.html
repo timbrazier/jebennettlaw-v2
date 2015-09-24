@@ -19,10 +19,10 @@
 
           <div class="trigger">
             <a href="/">Home</a>
-            <a href="/what-we-do">What we do</a>
-            <a href="/about-us">About</a>
-            <a href="/news">News</a>
-            <a href="/contact-us">Contact us</a>
+            <a href="{{ site.baseurl }}/what-we-do">What we do</a>
+            <a href="{{ site.baseurl }}/about-us">About</a>
+            <a href="{{ site.baseurl }}/news">News</a>
+            <a href="{{ site.baseurl }}/contact-us">Contact us</a>
             <!-- {% for page in site.pages %}
             {% if page.title %}
             <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
@@ -46,5 +46,5 @@
 </div>
 
 <div class="hero-image">
-  <img src="/images/hero.jpg" />
+  <img src="{{ site.baseurl }}/images/hero.jpg" />
 </div>
