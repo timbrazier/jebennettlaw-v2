@@ -29,6 +29,9 @@ $green-color-dark:  darken($green-color, 10%);
 
 $white-color:      #fff;
 
+$red-color:        #FF0000;
+$red-color-light: lighten($red-color, 20%);
+
 // Width of the content area
 $content-width:    800px;
 

@@ -508,6 +508,20 @@ input[type="button"].button-primary:focus {
       color: #B9D137; }
 
 /**
+ * Sidebar links styles
+ */
+.sidebar-link {
+  background: #B9D137;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 15px;
+  border-bottom: 5px solid #98ad28;
+  margin-top: 30px; }
+  .sidebar-link a {
+    color: #fff; }
+
+/**
  * Quote styles
  */
 .quote {
@@ -526,6 +540,26 @@ input[type="button"].button-primary:focus {
     font-weight: 300; }
     .quote a:hover {
       text-decoration: underline; }
+
+/**
+ * Warning Styles
+ */
+.warning {
+  padding: 15px;
+  color: #fff;
+  background: #ff6666;
+  margin-bottom: 30px; }
+  .warning p {
+    margin-bottom: 0; }
+
+/**
+ * Team page styles
+ */
+.team-member p {
+  background: #B9D137;
+  color: #fff;
+  padding: 7.5px;
+  font-weight: 400; }
 
 /**
  * Syntax highlighting styles

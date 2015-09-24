@@ -358,6 +358,24 @@
   }
 
   /**
+   * Sidebar links styles
+   */
+
+   .sidebar-link{
+     background: $green-color;
+     color: $white-color;
+     font-size: 24px;
+     font-weight: 500;
+     padding: $spacing-unit / 2;
+     border-bottom: 5px solid $green-color-dark;
+     margin-top: $spacing-unit;
+
+     a{
+       color: $white-color;
+     }
+   }
+
+  /**
    * Quote styles
    */
 
@@ -382,3 +400,31 @@
          }
        }
    }
+
+   /**
+    * Warning Styles
+    */
+
+    .warning{
+      padding: $spacing-unit / 2;
+      color: $white-color;
+      background: $red-color-light;
+      margin-bottom: $spacing-unit;
+
+      p{
+        margin-bottom: 0;
+      }
+    }
+
+    /**
+     * Team page styles
+     */
+
+     .team-member{
+       p{
+         background: $green-color;
+         color: $white-color;
+         padding: $spacing-unit / 4;
+         font-weight: 400;
+       }
+     }
