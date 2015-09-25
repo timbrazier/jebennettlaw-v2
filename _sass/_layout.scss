@@ -274,7 +274,7 @@
  */
 
 .header-wrapper{
-  background: url({{ site.baseurl }}/images/hero.jpg) no-repeat;
+  background: url("{{ site.baseurl }}/images/hero.jpg") no-repeat;
 }
 
 .page-heading{
