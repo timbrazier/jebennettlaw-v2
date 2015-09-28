@@ -20,11 +20,35 @@
           </a>
 
           <div class="trigger">
-            <a href="{{ site.baseurl }}/">Home</a>
-            <a href="{{ site.baseurl }}/what-we-do">What we do</a>
-            <a href="{{ site.baseurl }}/about-us">About</a>
-            <a href="{{ site.baseurl }}/news">News</a>
-            <a href="{{ site.baseurl }}/contact-us">Contact us</a>
+            <ul>
+              <li>
+                <a href="{{ site.baseurl }}/">Home</a>
+              </li>
+              <li>
+                What we do
+                <ul class="dropdown">
+                  <li><a href="{{ site.baseurl }}/court-of-protection">Court of protection</a></li>
+                  <li><a href="{{ site.baseurl }}/elderly-client-law">Elderly client law</a></li>
+                  <li><a href="{{ site.baseurl }}/expert-witness">Expert witness</a></li>
+                  <li><a href="{{ site.baseurl }}/who-we-help">Who we help</a></li>
+                </ul>
+              </li>
+              <li>
+                About us
+                <ul class="dropdown">
+                  <li><a href="{{ site.baseurl }}/about-us">Our story</a></li>
+                  <li><a href="{{ site.baseurl }}/the-team">The team</a></li>
+                  <li><a href="{{ site.baseurl }}/education-and-memberships">Professional memberships</a></li>
+                  <li><a href="{{ site.baseurl }}/client-stories">Client stories &amp; testimonials</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="{{ site.baseurl }}/news">News</a>
+              </li>
+              <li>
+                <a href="{{ site.baseurl }}/contact-us">Contact us</a>
+              </li>
+            </ul>
             <!-- {% for page in site.pages %}
             {% if page.title %}
             <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
@@ -42,7 +66,8 @@
 <div class="row">
   <div class="three columns">
     <p class="call-us">
-      Call us today - 01732 454 983
+      Call for a free confidential
+      <br>consultation: <strong>01732 454 983</strong>
     </p>
   </div>
 </div>

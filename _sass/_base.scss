@@ -118,19 +118,78 @@ a {
 .site-nav a {
     color: $text-color;
     text-decoration: none;
-    margin-left: $spacing-unit;
+  }
 
-    &:visited {
-        color: $text-color;
+    .site-nav ul {
+      text-align: left;
+      display: inline;
+      margin: 0;
+      list-style: none;
     }
 
-    &:hover {
-        color: $green-color;
-        text-decoration: none;
-        padding-bottom: 5px;
-        border-bottom: 3px solid $green-color;
+    .site-nav ul li {
+      display: inline-block;
+      position: relative;
+      padding-left: $spacing-unit / 2;
+      padding-right: $spacing-unit / 2;
+      cursor: pointer;
+      margin-bottom: 0;
+      line-height: 2.5;
     }
-}
+
+    .site-nav ul li:hover {
+      color: $green-color;
+      border-bottom: 4px solid $green-color;
+    }
+
+    .site-nav ul li ul {
+      padding: 0;
+      position: absolute;
+      box-shadow: none;
+      display: none;
+      opacity: 0;
+      visibility: hidden;
+      // -webkit-transiton: opacity 0.2s;
+      // -moz-transition: opacity 0.2s;
+      // -ms-transition: opacity 0.2s;
+      // -o-transition: opacity 0.2s;
+      // transition: opacity 0.2s;
+    }
+    .site-nav ul li ul li {
+      display: block;
+      color: #fff;
+      background: $green-color;
+    }
+    .site-nav ul li:hover ul {
+      display: block;
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .dropdown{
+      left: -10px;
+      width: 220px;
+      position: absolute;
+      z-index: 10000;
+    }
+
+    .dropdown a{
+      color: $white-color;
+    }
+
+    .dropdown a:hover{
+      border: none;
+      text-decoration: underline;
+    }
+
+    .dropdown li{
+      border-top: 1px solid $white-color;
+    }
+
+    .dropdown li:hover {
+      border-bottom: 0 !important;
+    }
+
 
 /**
  * Site footer Links
