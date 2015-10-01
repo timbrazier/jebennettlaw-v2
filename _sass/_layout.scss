@@ -307,6 +307,7 @@
    border-bottom: 5px solid $green-color;
    padding-bottom: $spacing-unit;
    margin-bottom: $spacing-unit * 2;
+   min-height: 400px;
  }
 
  .home-feature-2{
@@ -329,20 +330,47 @@
    margin: 0 3px 0 0;
  }
 
+ .home-quote{
+   font-weight: 300;
+   padding: $spacing-unit;
+   background-color: $grey-color-lighter;
+   margin-bottom: $spacing-unit;
+
+   p{
+     margin-bottom: 10px;
+   }
+ }
+
+ .attributed{
+   font-style: italic;
+   color: $green-color;
+ }
+
+ .services-intro{
+   color: $green-color;
+   font-weight: 400;
+   font-size: 20px;
+ }
+
  /**
   * Content page styles
   */
 
   .page-title{
     font-weight: 400;
-    font-size: 46px;
+    font-size: 34px;
     padding: $spacing-unit / 4 $spacing-unit;
     padding-left: $spacing-unit * 5;
     color: $white-color;
     background: rgba($green-color, 0.8);
-    margin-top: -113px;
+    margin-top: -95px;
     position: absolute;
     left: 0;
+  }
+
+  .grey{
+    background: $grey-color-lighter;
+    padding: $spacing-unit;
   }
 
   /**

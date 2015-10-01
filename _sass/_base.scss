@@ -102,7 +102,7 @@ h3{
  * Links
  */
 a {
-    color: $brand-color;
+    color: $green-color;
     text-decoration: none;
 
     &:hover {
@@ -304,6 +304,10 @@ pre {
    float: right;
 }
 
+  .center{
+    margin: 0 auto;
+    text-align: center;
+  }
 /**
  * Icons
  */
