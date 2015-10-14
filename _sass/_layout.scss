@@ -280,13 +280,16 @@
 
 .page-heading{
   font-weight: 600;
-  font-size: 12px;
   padding: $spacing-unit / 4 $spacing-unit;
   color: $white-color;
   background: rgba($green-color, 0.8);
   margin-top: 50px;
   margin-bottom: 50px;
   margin-left: 100px;
+}
+
+.page-heading h1{
+  font-size: 18px;
 }
 
 .page-wrapper{
@@ -344,6 +347,13 @@
  .attributed{
    font-style: italic;
    color: $green-color;
+ }
+
+ .attributed-home{
+   font-style: italic;
+   color: $white-color;
+   font-size: 16px;
+   font-weight: 300;
  }
 
  .services-intro{
@@ -407,8 +417,8 @@
    .sidebar-link{
      background: $green-color;
      color: $white-color;
-     font-size: 24px;
-     font-weight: 500;
+     font-size: 16px;
+     font-weight: 400;
      padding: $spacing-unit / 2;
      border-bottom: 5px solid $green-color-dark;
      margin-top: $spacing-unit;

@@ -137,9 +137,8 @@ a {
       line-height: 2.5;
     }
 
-    .site-nav ul li:hover {
-      color: $green-color;
-      border-bottom: 4px solid $green-color;
+    .site-nav ul li a:hover {
+      
     }
 
     .site-nav ul li ul {
@@ -167,8 +166,8 @@ a {
     }
 
     .dropdown{
-      left: -10px;
-      width: 220px;
+      left: -60px;
+      width: 300px;
       position: absolute;
       z-index: 10000;
     }
@@ -178,7 +177,7 @@ a {
     }
 
     .dropdown a:hover{
-      border: none;
+      border: none !important;
       text-decoration: underline;
     }
 
@@ -186,10 +185,18 @@ a {
       border-top: 1px solid $white-color;
     }
 
-    .dropdown li:hover {
-      border-bottom: 0 !important;
-    }
+    .sub-nav{
+      background-color: $white-color !important;
 
+      a{
+        color: $green-color !important;
+
+        &hover{
+          color: $green-color !important;
+        }
+      }
+
+    }
 
 /**
  * Site footer Links
