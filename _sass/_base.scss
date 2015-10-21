@@ -8,6 +8,10 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
+em{
+  font-weight: 500;
+  font-style: normal;
+}
 
 
 /**
@@ -32,7 +36,11 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
+  margin-bottom: $spacing-unit / 2 !important;
+}
+
+p{
+  margin-bottom: $spacing-unit !important;
 }
 
 
@@ -92,8 +100,8 @@ h2{
 
 h3{
   color: $green-color;
-  font-size: 18px !important;
-  margin-top: 20px;
+  font-size: 16px !important;
+  margin-top: 10px;
 }
 
 
@@ -137,10 +145,6 @@ a {
       line-height: 2.5;
     }
 
-    .site-nav ul li a:hover {
-      
-    }
-
     .site-nav ul li ul {
       padding: 0;
       position: absolute;
@@ -148,16 +152,16 @@ a {
       display: none;
       opacity: 0;
       visibility: hidden;
-      // -webkit-transiton: opacity 0.2s;
-      // -moz-transition: opacity 0.2s;
-      // -ms-transition: opacity 0.2s;
-      // -o-transition: opacity 0.2s;
-      // transition: opacity 0.2s;
+      -webkit-transiton: opacity 0.2s;
+      -moz-transition: opacity 0.2s;
+      -ms-transition: opacity 0.2s;
+      -o-transition: opacity 0.2s;
+      transition: opacity 0.2s;
     }
     .site-nav ul li ul li {
       display: block;
       color: #fff;
-      background: $green-color;
+      background: $grey-color-light;
     }
     .site-nav ul li:hover ul {
       display: block;
@@ -170,15 +174,16 @@ a {
       width: 300px;
       position: absolute;
       z-index: 10000;
+      background-color: $grey-color;
+      border-top: 5px solid $green-color;
     }
 
     .dropdown a{
-      color: $white-color;
+      color: $grey-color;
     }
 
     .dropdown a:hover{
       border: none !important;
-      text-decoration: underline;
     }
 
     .dropdown li{
@@ -186,17 +191,14 @@ a {
     }
 
     .sub-nav{
-      background-color: $white-color !important;
-
-      a{
-        color: $green-color !important;
-
-        &hover{
-          color: $green-color !important;
+      background-color: $grey-color-lighter !important;
+        a{
+          color: $grey-color !important;
+          font-weight: 300;
+          padding-left: $spacing-unit / 2;
         }
       }
 
-    }
 
 /**
  * Site footer Links
