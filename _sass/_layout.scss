@@ -531,6 +531,7 @@
     background: $grey-color-light;
     margin-bottom: $spacing-unit;
     padding: $spacing-unit;
+    min-height: 200px;
 
     h2{
       color: $white-color;
@@ -540,15 +541,35 @@
   .testimonial{
     background: $green-color;
     color: $white-color;
-    margin-bottom: $spacing-unit;
-    padding: $spacing-unit;
+    padding: $spacing-unit / 2;
     border-bottom: 10px solid $green-color-dark;
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 22px;
+    font-weight: 400;
+    min-height: 160px;
   }
 
   .story-1{
     background: url("../images/story-1.jpg") no-repeat;
+  }
+
+  .story-2{
+    background: url("../images/story-2.jpg") no-repeat;
+  }
+
+  .story-3{
+    background: url("../images/story-3.jpg") no-repeat;
+  }
+
+  .story-4{
+    background: url("../images/story-4.jpg") no-repeat;
+  }
+
+  .story-5{
+    background: url("../images/story-5.jpg") no-repeat;
+  }
+
+  .story-6{
+    background: url("../images/story-6.jpg") no-repeat;
   }
 
 
