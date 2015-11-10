@@ -523,6 +523,22 @@
     cursor: pointer;
   }
 
+  .modalDialog img{
+    float: left;
+    width: 25%;
+    margin-top: $spacing-unit / 2;
+    margin-right: $spacing-unit;
+    margin-bottom: $spacing-unit / 2 !important;
+  }
+
+  .modalDialog h2{
+    margin-top: $spacing-unit / 2;
+  }
+
+  .modalDialog p{
+    margin-bottom: $spacing-unit / 3 !important;
+  }
+
   /**
   * Story styles
   */
