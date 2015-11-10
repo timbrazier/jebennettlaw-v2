@@ -417,6 +417,18 @@
     }
   }
 
+  .events{
+    text-align: center;
+
+    a{
+      color: $white-color;
+
+      &:hover{
+        color: $white-color;
+      }
+    }
+  }
+
   /**
   * Sidebar links styles
   */
@@ -562,6 +574,13 @@
     font-size: 22px;
     font-weight: 400;
     min-height: 160px;
+    margin-left: 0;
+  }
+
+  .testimonial span{
+    font-size: 14px;
+    margin-top: 20px;
+    font-style: italic;
   }
 
   .story-1{
@@ -678,21 +697,43 @@
   * Landing page styles
   */
 
+  .landing-intro{
+    font-size: 18px;
+    line-height: 1.75;
+  }
+
   .landing-feature{
     border-bottom: 5px solid $green-color;
     background-color: $grey-color-lighter;
     margin-bottom: $spacing-unit;
 
     img{
-      width: 120%;
+      min-height: 150px;
     }
 
     h2{
       padding: 0 $spacing-unit / 2;
+      font-size: 16px !important;
     }
 
     .button{
       margin-left: $spacing-unit / 2;
+    }
+  }
+
+  .landing-feature-green{
+    border-bottom: 5px solid $green-color-dark;
+    background-color: $green-color;
+    margin-bottom: $spacing-unit;
+
+    img{
+      min-height: 150px;
+    }
+
+    h2{
+      padding: 0 $spacing-unit / 2;
+      font-size: 16px !important;
+      color: $white-color;
     }
   }
 
@@ -708,4 +749,14 @@
     border-bottom: none !important;
     padding: $spacing-unit / 3 $spacing-unit / 2 !important;
     background-color: $grey-color-lighter;
+  }
+
+  /**
+  * News page styles
+  */
+
+  .news-item{
+    background: $grey-color-lighter;
+    padding: $spacing-unit;
+    margin-bottom: $spacing-unit;
   }
