@@ -10,13 +10,15 @@
   <meta name="description" content="JE Bennett Law is a Limited company incorporated in England and Wales (No.7875908), and is authorised and regulated by the Solicitors Regulation Authority (No.565975)
 ">
 
-  <link rel="stylesheet" href="/jebennettlaw-v2//css/main.css">
-  <link rel="stylesheet" href="/jebennettlaw-v2//css/skeleton.css">
-  <link rel="stylesheet" href="/jebennettlaw-v2//css/normalize.css">
-  <link rel="canonical" href="http://yourdomain.com/jebennettlaw-v2//">
-  <link rel="alternate" type="application/rss+xml" title="JE Bennett Law" href="http://yourdomain.com/jebennettlaw-v2//feed.xml" />
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/skeleton.css">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="canonical" href="http://yourdomain.com//">
+  <link rel="alternate" type="application/rss+xml" title="JE Bennett Law" href="http://yourdomain.com//feed.xml" />
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="SlickNav/scss/slicknav.css" />
+  <script src="SlickNav/jquery.slicknav.js"></script>
 </head>
 
 
@@ -29,10 +31,53 @@
   <div class="wrapper">
     <div class="row">
       <div class="four columns">
-        <a href="/jebennettlaw-v2/">
-          <img class="logo" src="/jebennettlaw-v2//images/logo.jpg" alt="JE Bennett Law logo"/>
+        <a href="/">
+          <img class="logo" src="/images/logo.jpg" alt="JE Bennett Law logo"/>
         </a>
       </div>
+
+
+      <!-- <ul id="menu">
+      	<li><a href="#">item 1</a></li>
+      	<li><a href="#">item 2</a></li>
+      	<li><a href="#">item 3</a></li>
+      	<li><a href="#">item 4</a></li>
+      </ul> -->
+
+      <!-- <ul id="menu2">
+        <li>Parent 1
+          <ul>
+            <li><a href="#">item 3</a></li>
+            <li>Parent 3
+              <ul>
+                <li><a href="#">item 8</a></li>
+                <li><a href="#">item 9</a></li>
+                <li><a href="#">item 10</a></li>
+              </ul>
+            </li>
+            <li><a href="#">item 4</a></li>
+          </ul>
+        </li>
+        <li><a href="#">item 1</a></li>
+        <li>non-link item</li>
+        <li>Parent 2
+          <ul>
+            <li><a href="#">item 5</a></li>
+            <li><a href="#">item 6</a></li>
+            <li><a href="#">item 7</a></li>
+          </ul>
+        </li>
+      </ul> -->
+
+      <script type="text/javascript">
+        $('#menu2').slicknav({
+        label: '',
+        duration: 1000,
+        easingOpen: "easeOutBounce", //available with jQuery UI
+        prependTo:'#demo2'
+        });
+      </script>
+
 
       <div class="eight columns">
         <nav class="site-nav right">
@@ -47,34 +92,34 @@
           <div class="trigger">
             <ul>
               <li>
-                <a href="/jebennettlaw-v2/">Home</a>
+                <a href="/">Home</a>
               </li>
               <li>
                 Our services
                 <ul class="dropdown">
-                  <li><a href="/jebennettlaw-v2/vulnerable-client-law">Vulnerable client legal services</a></li>
-                  <li class="sub-nav"><a href="/jebennettlaw-v2/court-of-protection">Court of protection</a></li>
-                  <li class="sub-nav"><a href="/jebennettlaw-v2/elderly-client-law">Elderly client law</a></li>
-                  <li class="sub-nav"><a href="/jebennettlaw-v2/personal-injury-trusts">Personal injury trusts</a></li>
-                  <li><a href="/jebennettlaw-v2//expert-witness">Expert witness</a></li>
-                  <li><a href="/jebennettlaw-v2//training">Training</a></li>
+                  <li><a href="/vulnerable-client-law">Vulnerable client legal services</a></li>
+                  <li class="sub-nav"><a href="/court-of-protection">Court of protection</a></li>
+                  <li class="sub-nav"><a href="/elderly-client-law">Elderly client law</a></li>
+                  <li class="sub-nav"><a href="/personal-injury-trusts">Personal injury trusts</a></li>
+                  <li><a href="/expert-witness">Expert witness</a></li>
+                  <li><a href="/training">Training</a></li>
                 </ul>
               </li>
               <li>
                 About us
                 <ul class="dropdown">
-                  <li><a href="/jebennettlaw-v2/about-us">Our story</a></li>
-                  <li><a href="/jebennettlaw-v2/who-we-help">Who we help</a></li>
-                  <li><a href="/jebennettlaw-v2/the-team">The team</a></li>
-                  <li><a href="/jebennettlaw-v2/development-and-memberships">Professional memberships</a></li>
-                  <li><a href="/jebennettlaw-v2/client-stories">Client stories &amp; testimonials</a></li>
+                  <li><a href="/about-us">Our story</a></li>
+                  <li><a href="/who-we-help">Who we help</a></li>
+                  <li><a href="/the-team">The team</a></li>
+                  <li><a href="/development-and-memberships">Professional memberships</a></li>
+                  <li><a href="/client-stories">Client stories &amp; testimonials</a></li>
                 </ul>
               </li>
               <li>
-                <a href="/jebennettlaw-v2/news">News</a>
+                <a href="/news">News</a>
               </li>
               <li>
-                <a href="/jebennettlaw-v2/contact-us">Contact us</a>
+                <a href="/contact-us">Contact us</a>
               </li>
             </ul>
           </div>
@@ -119,48 +164,48 @@
 
   <div class="row home">
     <div class="four columns home-feature">
-      <img src="/jebennettlaw-v2//images/court-of-protection.jpg" alt="vulnerable client law"/>
+      <img src="/images/court-of-protection.jpg" alt="vulnerable client law"/>
       <h2>Vulnerable client law</h2>
       <p>
         Our wealth of experience enables us to represent vulnerable clients with a range of injuries; disabilities and concerns arising from getting older. We also assist their family members and in many cases, are involved for the duration of the vulnerable party’s life.
       </p>
-      <a class="button" href="/jebennettlaw-v2/vulnerable-client-law">Read more</a>
+      <a class="button" href="/vulnerable-client-law">Read more</a>
     </div>
     <div class="four columns home-feature">
-      <img src="/jebennettlaw-v2//images/elderly-client-law.jpg" alt="expert witness"/>
+      <img src="/images/elderly-client-law.jpg" alt="expert witness"/>
       <h2>Expert witness</h2>
       <p>
         Jane Bennett acts as an expert witness in catastrophic high value insurance claims for a range of leading claimant and defendant law firms across England and Wales, regarding the role of a professional property and affairs deputy under the Court of Protection, and associated issues such as costs; health and welfare; best interests and safeguarding aspects.
       </p>
-      <a class="button" href="/jebennettlaw-v2/expert-witness">Read more</a>
+      <a class="button" href="/expert-witness">Read more</a>
     </div>
     <div class="four columns home-feature">
-      <img src="/jebennettlaw-v2//images/expert-witness-service.jpg" alt="training"/>
+      <img src="/images/expert-witness-service.jpg" alt="training"/>
       <h2>Training</h2>
       <p>
         Jane and the team offer a broad range of seminars aimed at the older client in the local community. Jane offers regular specialist legal seminars farther afield.
       </p>
-      <a class="button" href="/jebennettlaw-v2/training">Read more</a>
+      <a class="button" href="/training">Read more</a>
     </div>
   </div>
 
   <div class="row">
     <div class="four columns home-feature-2">
-      <img src="/jebennettlaw-v2/images/who-we-help.jpg" alt="who-we-help"/>
+      <img src="/images/who-we-help.jpg" alt="who-we-help"/>
       <h3>
         Working for the family of those lacking mental capacity, the injured party, the elderly and other vulnerable groups
       </h3>
-      <a class="button" href="/jebennettlaw-v2/who-we-help">See all the people we can help</a>
+      <a class="button" href="/who-we-help">See all the people we can help</a>
     </div>
     <div class="four columns home-feature-2">
-      <img src="/jebennettlaw-v2/images/our-stories.jpg" alt="who-we-help"/>
+      <img src="/images/our-stories.jpg" alt="who-we-help"/>
       <h3>
         Helping vulnerable people to get the legal help they need
       </h3>
-      <a class="button" href="/jebennettlaw-v2/client-stories">Read our client stories</a>
+      <a class="button" href="/client-stories">Read our client stories</a>
     </div>
     <div class="four columns award">
-      <img src="/jebennettlaw-v2/images/legal500.png" />
+      <img src="/images/legal500.png" />
       <p>
         JE Bennett Law was recently recognised by The Legal 500.
       </p>
@@ -189,7 +234,11 @@
 
 </footer>
 
-
+    <script>
+    $(function(){
+      $('#menu').slicknav();
+    });
+    </script>
   </body>
 
 </html>

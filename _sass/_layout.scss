@@ -823,4 +823,33 @@
       padding-top: 20px;
     }
 
+    .site-nav ul li ul {
+      padding: 0;
+      position: absolute;
+      box-shadow: none;
+      display: inline;
+      opacity: 100;
+      visibility: visible;
+      -webkit-transiton: opacity 0.2s;
+      -moz-transition: opacity 0.2s;
+      -ms-transition: opacity 0.2s;
+      -o-transition: opacity 0.2s;
+      transition: opacity 0.2s;
+    }
+
   }
+
+  .slicknav_menu {
+	display:none;
+}
+
+@media screen and (max-width: 40em) {
+	/* #menu is the original menu */
+	.js #menu {
+		display:none;
+	}
+
+	.js .slicknav_menu {
+		display:block;
+	}
+}
