@@ -70,6 +70,12 @@
 
 </div>
 
-<script type="text/javascript">
-  $( '#nav li:has(ul)' ).doubleTapToGo();
+<script src="/scripts/doubleTapToGo.js"></script>
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script>
+	$( function()
+	{
+		$( '#nav li:has(ul)' ).doubleTapToGo();
+	});
 </script>
