@@ -973,6 +973,11 @@
     z-index: 1000;
     border: none;
   }
+
+  .page-title{
+    font-size: 20px;
+    padding-left: $spacing-unit * 1.5;
+  }
 }
 //
 // body

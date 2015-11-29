@@ -32,50 +32,36 @@
       </div>
 
       <div class="eight columns">
-        <nav class="site-nav right">
-          <a href="#" class="menu-icon">
-            <svg viewBox="0 0 18 15">
-              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-            </svg>
-          </a>
-
-          <div class="trigger">
-            <ul>
-              <li>
-                <a href="/">Home</a>
-              </li>
-              <li>
-                Our services
-                <ul class="dropdown">
-                  <li><a href="/vulnerable-client-law">Vulnerable client legal services</a></li>
-                  <li class="sub-nav"><a href="/court-of-protection">Court of protection</a></li>
-                  <li class="sub-nav"><a href="/elderly-client-law">Elderly client law</a></li>
-                  <li class="sub-nav"><a href="/personal-injury-trusts">Personal injury trusts</a></li>
-                  <li><a href="/expert-witness">Expert witness</a></li>
-                  <li><a href="/training">Training</a></li>
+        <nav id="nav" role="navigation">
+        <a href="#nav" title="Show navigation"><i class="fa fa-bars"></i> Menu</a>
+        <a href="#" title="Hide navigation"><i class="fa fa-times"></i> Close</a>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li>
+                <a href="/" aria-haspopup="true">Our services</a>
+                <ul>
+                    <li><a href="/vulnerable-client-law">Vulnerable client legal services</a></li>
+                    <li class="sub-nav"><a href="/court-of-protection">- Court of protection</a></li>
+                    <li class="sub-nav"><a href="/elderly-client-law">- Elderly client law</a></li>
+                    <li class="sub-nav"><a href="/personal-injury-trusts">- Personal injury trusts</a></li>
+                    <li><a href="/expert-witness">Expert witness</a></li>
+                    <li><a href="/training">Training</a></li>
                 </ul>
-              </li>
-              <li>
-                About us
-                <ul class="dropdown">
-                  <li><a href="/about-us">Our story</a></li>
-                  <li><a href="/who-we-help">Who we help</a></li>
-                  <li><a href="/the-team">The team</a></li>
-                  <li><a href="/development-and-memberships">Professional memberships</a></li>
-                  <li><a href="/client-stories">Client stories &amp; testimonials</a></li>
+            </li>
+            <li>
+                <a href="/" aria-haspopup="true">About us</a>
+                <ul>
+                    <li><a href="/about-us">Our story</a></li>
+                    <li><a href="/who-we-help">Who we help</a></li>
+                    <li><a href="/the-team">The team</a></li>
+                    <li><a href="/development-and-memberships">Professional memberships</a></li>
+                    <li><a href="/client-stories">Client stories &amp; testimonials</a></li>
                 </ul>
-              </li>
-              <li>
-                <a href="/news">News</a>
-              </li>
-              <li>
-                <a href="/contact-us">Contact us</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+            </li>
+            <li><a href="/news">News</a></li>
+            <li><a href="/contact-us">Contact us</a></li>
+        </ul>
+    </nav>
       </div>
     </div>
 
@@ -95,6 +81,17 @@
 <div class="hero-image">
   <img src="/images/hero.jpg" />
 </div>
+
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="/scripts/doubleTapToGo.js"></script>
+
+<script>
+	$( function()
+	{
+		$( '#nav li:has(ul)' ).doubleTapToGo();
+	});
+</script>
 
 
     <div class="page-content">
