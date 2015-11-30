@@ -795,9 +795,8 @@
     }
 
     .call-us{
-      margin-left: 0;
       float: left;
-      left: 38px;
+      width: 70%;
       z-index: 900;
     }
 
@@ -913,14 +912,16 @@
   #nav
   {
     position: relative;
-    top: -75px;
+    top: -70px;
+    right: -12px;
     font-weight: 400;
     background: $green-color;
-    padding: 5px;
+    padding: 10px 5px;
   }
   #nav > a
   {
     color: $white-color !important;
+    top: 5px;
   }
   #nav:not( :target ) > a:first-of-type,
   #nav:target > a:last-of-type
@@ -942,6 +943,7 @@
     padding: 20px;
     border-top: 5px solid $green-color;
     width: 250px;
+    top: 40px;
   }
   #nav:target > ul
   {
