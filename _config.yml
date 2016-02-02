@@ -11,4 +11,4 @@ github_username:
 # Build settings
 markdown: kramdown
 sass:
-    style: compressed
+style: compressed
