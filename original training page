@@ -1,0 +1,105 @@
+---
+layout: page
+title: Personal injury | training | solicitors | Sevenoaks | JE Bennett Law
+header: Training
+description: Looking for training on managing personal injury trusts? We're specialist Solicitors in this area and deliver training seminars for insurers and lawyers.
+permalink: /training-personal-injury-solicitors-sevenoaks-kent/
+---
+<div class="page-wrapper">
+  <div class="row">
+    <div class="eight columns">
+
+      <p>
+        JE Bennett Law Solicitors are committed to providing education in our areas of expertise. An experienced speaker, Jane regularly presents locally, in the Sevenoaks vicinity, on the subjects of her personal expertise. She also has led seminars throughout the UK on Personal Injury Trusts to train other lawyers through MBL seminars.
+      </p>
+
+      <h2>Upcoming Events</h2>
+      <p>Jane's seminar <em>Managing Personal Injury Trusts - For PI &amp; Private Client Lawyers</em> is available as a webinar.</p>
+      <p>
+        <a href="{{ site.baseurl }}event" class="button">Read more about the event</a>
+
+        <a href="http://www.mblseminars.com/outline?progid=7507&CC=speakerwebsites&utm_source=jane%20bennett&utm_medium=speaker&utm_campaign=speakerwebsites" class="button" target="_blank">Book Webinar now</a>
+      </p>
+      <table>
+        
+        
+       
+        <tr>
+          <td>
+            Venue TBC
+          </td>
+          <td>
+            Date TBC
+          </td>
+        </tr>
+
+      </table>
+
+      <div class="quote">
+        <p>
+          "Very clear and knowledgeable"
+        </p>
+        <p>
+          "Excellent - extremely informative"
+        </p>
+        <p>
+          "Excellent knowledge &amp; pace, really good delivery of content"
+        </p>
+        <p>
+          <span>- Comments from previous delegates</span>
+        </p>
+      </div>
+
+      <h2>Other training and presentations</h2>
+      <p>
+        Jane gave an APAD presentation at Brewin Dolphin in London to local authority deputies of the London boroughs, on 18.6.2015, in association with Chase de Vere.
+      </p>
+      <p>
+        Jane is actively involved in knowledge-sharing with key groups in her field. She regularly presents on elderly client law to local care homes. She has also spoken at presentations for the Good Care Group (via Symponia), and Sunrise residential home in Sevenoaks.
+      </p>
+      <p>
+        Jane presented to a national catastrophic injury panel of leading defendant litigators in May 2014 on the direct recommendation of national insurer, Ageas.
+      </p>
+    </div>
+
+    <div class="four columns sidebar">
+      <img src="{{ site.baseurl }}images/expert-witness-service.jpg" alt="personal-injury-training-solicitors-sevenoaks-photo"/>
+      <h2>Who we help</h2>
+      <ul>
+        <li>
+          <a href="{{ site.baseurl }}who-we-help#pi-insurers">PI insurers</a>
+        </li>
+        <li>
+          <a href="{{ site.baseurl }}who-we-help#pi-lawyers">Personal injury and private client lawyers (via training)</a>
+        </li>
+      </ul>
+
+      <h2>Other legal services</h2>
+      <ul>
+        <li>
+          <a href="{{ site.baseurl }}court-of-protection-solicitors-sevenoaks-kent">Court of protection</a>
+        </li>
+        <li>
+          <a href="{{ site.baseurl }}court-of-protection-solicitors-sevenoaks-kent#deputies">Lay Deputies and Professional Deputies</a>
+        </li>
+        <li>
+          <a href="{{ site.baseurl }}elderly-solicitors-sevenoaks-kent">Elderly client law</a>
+        </li>
+        <li>
+          <a href="{{ site.baseurl }}elderly-solicitors-sevenoaks-kent#community">Community care law</a>
+        </li>
+        <li>
+          <a href="{{ site.baseurl }}elderly-solicitors-sevenoaks-kent#wills">Wills and probate</a>
+        </li>
+        <li>
+          <a href="{{ site.baseurl }}personal-injury-trusts-solicitors-sevenoaks-kent">Personal injury trusts</a>
+        </li>
+        <li>
+          <a href="{{ site.baseurl }}expert-witness-personal-injury-solicitors-sevenoaks-kent">Expert witness</a>
+        </li>
+      </ul>
+
+    </div>
+
+  </div>
+</div>
