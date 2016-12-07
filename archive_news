@@ -1,0 +1,146 @@
+---
+layout: page
+title: News
+header: News
+permalink: /news/
+---
+<div class="page-wrapper">
+
+  <div class="row">
+    <div class="eight columns">
+      
+      <div class="news-item">
+        <h3>
+          Jane Bennett Accredited by Solicitors for the Elderly
+        </h3>
+        <p class="date">
+          6th October 2016 by <span>Jane Bennett</span>
+         
+        </p>Having passed the appropriate qualifying modules and criteria, Jane Bennett is now a fully Accredited member of Solicitors for the Elderly (SFE). The SFE give the following 10 reasons why it's a smart move to use an Accredited Lawyer<br>
+
+<a href="{{ site.baseurl }}documents/10 reasons to use an SFE accredited lawyer.pdf" class="button">Reasons to use an SFE Accredited Lawyer </a>
+      
+       
+      </div> 
+     <div class="news-item">
+        <h3>
+          Je Bennett Law in the Legal 500
+        </h3>
+        <p class="date">
+          16th September 2016 by <span>Jane Bennett</span>
+         
+        </p>We're delighted to repeat our success from last year by again being recognised as a leading firm in the latest Legal 500 ratings. Jane has also been rated as a 'Recommended Lawyer'. This is great recognition of the team's hard work throughout the year. <br>
+
+<a href="http://www.legal500.com/firms/4213-je-bennett-law/7100-sevenoaks-england" class="button">The Legal 500</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<img src="http://jebennettlaw.co.uk/images/legal500smaller.png"> 
+      
+       
+      </div>
+     <div class="news-item">
+        <h3>
+          We've moved!
+        </h3>
+        <p class="date">
+          11th July 2016 by <span>Jane Bennett</span>
+        </p>We're excited to have moved offices today. With an expanding team, things were getting a little cramped, so we've moved just down the road to somewhere with a bit more elbow room. On the ground floor with a bit more space, our new office is also more client-friendly. 
+<a href="{{ site.baseurl }}contact-us" class="button">new address</a>
+      
+       
+      </div>
+          <div class="news-item">
+        <h3>
+          JE Bennett Law at “Wings for Life”.
+        </h3>
+        <p class="date">
+          12th May 2016 by <span>Jane Bennett</span>
+        </p>JE Bennett Law recently took part in the World Run in Cambridge in aid of spinal cord medical research charity “Wings for Life”. Here's a couple of photos:
+      
+        
+         <img src="http://jebennettlaw.co.uk/images/wings.JPG">&nbsp&nbsp<img src="http://jebennettlaw.co.uk/images/wingstwo.JPG">
+         
+      
+       
+      </div>
+      
+         <div class="news-item">
+        <h3>
+          JE Bennett at the wings for life run in Cambridge
+        </h3>
+        <p class="date">
+          20th April 2016 by <span>Jane Bennett</span>
+        </p>
+        <p>
+          The team are heading to Cambridge on May 8th to take part in the Wings for Life World Run <br> <a href="http://www.wingsforlifeworldrun.com/gb/en/cambridge/" class="button">wings for life</a> <br> For most of us, training has been brief, so wish us luck, we'll need it! Obviously, it's all in a good cause, raising money to help those with spinal cord injuries. Here is a link to our just giving page:
+        </p>
+        <a href="http://www.justgiving.com/Jane-Bennett13" class="button">just giving</a>
+      </div>
+       <div class="news-item">
+        <h3>
+          New training webinar from March 2016
+        </h3>
+        <p class="date">
+          31st January 2016 by <span>Jane Bennett</span>
+        </p>
+        <p>
+          Jane has developed a 1 hour training webinar with MBL Seminars:<i> A Practical Guide To Personal Injury Trusts</i>. It's for private client and personal injury lawyers.
+        </p>
+        <a href="http://www.mblseminars.com/outline?progid=7507&CC=speakerwebsites&utm_source=jane%20bennett&utm_medium=speaker&utm_campaign=speakerwebsites" class="button">See details and book here</a>
+      </div>
+      <div class="news-item">
+        <h3>
+          Private Client Section on pensions law changes affecting deputies
+        </h3>
+        <p class="date">
+          12th November 2015 by <span>Jane Bennett</span>
+        </p>
+        <p>
+          Jane has co-written an article in Private Client Section on pensions law changes affecting deputies.
+        </p>
+        <a href="{{ site.baseurl }}documents/Auto-Enrolment-Article.pdf" class="button">View the article</a>
+      </div>
+      <div class="news-item">
+        <h3>
+          Safeguarding the vulnerable client
+        </h3>
+        <p class="date">
+          5th November 2015 by <span>Jane Bennett</span>
+        </p>
+        <p>
+          Jane has contributed to an article regarding safeguarding the vulnerable client.
+        </p>
+        <a href="{{ site.baseurl }}documents/Age-old-problem-Lucy-Trevelyan-PS-March-2015.pdf" class="button">View the article</a>
+      </div>
+      <div class="news-item">
+        <h3>
+          Social Care and Neurodisability
+        </h3>
+        <p class="date">
+          21st October 2015 by <span>Jane Bennett</span>
+        </p>
+        <p>
+          Jane has also written an article for the Social Care and Neurodisability book.
+        </p>
+        <a href="{{ site.baseurl }}documents/Assessing-Mental-Capacity-Article.pdf" class="button">View the article</a>
+      </div>
+      <div class="news-item">
+        <h3>
+          ‘Safeguarding Adults in Social Work’ (Second Edition)
+        </h3>
+        <p class="date">
+          10th September 2015 by <span>Jane Bennett</span>
+        </p>
+        <p>
+          Jane also edited ‘Safeguarding Adults in Social Work’ (Second Edition).
+        </p>
+      </div>
+    </div>
+
+    <div class="four columns sidebar events">
+      <h2>Upcoming events</h2>
+      <div style="width:195; text-align:center;" ><iframe  src="https://www.eventbrite.com/calendar-widget?eid=7970378617" frameborder="0" height="417" width="195" marginheight="0" marginwidth="0" scrolling="no" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:195px; text-align:center;" ></div></div>
+      <a href="{{ site.baseurl }}training-personal-injury-solicitors-sevenoaks-kent" class="button">Read more about our events</a>
+    </div>
+
+  </div>
+
+</div>
