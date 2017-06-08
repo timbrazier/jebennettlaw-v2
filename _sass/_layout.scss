@@ -649,6 +649,7 @@
     -moz-transition: opacity 400ms ease-in;
     transition: opacity 400ms ease-in;
     pointer-events: none;
+    overflow: scroll;
   }
 
   .modalDialog:target {
