@@ -95,11 +95,6 @@
         display: block;
         padding: 5px 10px;
       }
-
-      .team-member{
-        margin: 0 5px !important;
-      }
-
     }
   }
 
@@ -538,6 +533,10 @@
 
     a{
       color: $white-color;
+    }
+
+    @include media-query($on-palm) {
+      margin: 0px 5px !important;
     }
   }
 
