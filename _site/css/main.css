@@ -770,6 +770,9 @@ input[type="button"].button-primary:focus {
 .story-6 {
   background: url("../images/story-6.jpg") no-repeat; }
 
+.story-7 {
+  background: url("../images/story-7.jpg") no-repeat; }
+
 /**
 * Modal styles
 */
@@ -785,7 +788,8 @@ input[type="button"].button-primary:focus {
   -webkit-transition: opacity 400ms ease-in;
   -moz-transition: opacity 400ms ease-in;
   transition: opacity 400ms ease-in;
-  pointer-events: none; }
+  pointer-events: none;
+  overflow: scroll; }
 
 .modalDialog:target {
   opacity: 1;
