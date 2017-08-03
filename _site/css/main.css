@@ -370,9 +370,7 @@ input[type="button"].button-primary:focus {
         height: 300px; }
       .site-nav .page-link {
         display: block;
-        padding: 5px 10px; }
-      .site-nav .team-member {
-        margin: 0 5px !important; } }
+        padding: 5px 10px; } }
 
 .call-us {
   background-color: #B9D137;
@@ -698,6 +696,9 @@ input[type="button"].button-primary:focus {
     font-weight: 400; }
   .team-member a {
     color: #fff; }
+  @media screen and (max-width: 600px) {
+    .team-member {
+      margin: 0px 20px !important; } }
 
 .icon {
   color: #0582BC; }
