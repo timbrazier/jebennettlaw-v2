@@ -16,7 +16,7 @@ permalink: /training-personal-injury-solicitors-sevenoaks-kent/
       <h2>Upcoming Events</h2>
       <p>Jane's seminar <em>Managing Personal Injury Trusts - For PI &amp; Private Client Lawyers</em> is available as a webinar.</p>
       <p>
-        <a href="{{ site.baseurl }}event" class="button">Read more about the event</a>
+        <a href="/event" class="button">Read more about the event</a>
 
         <a href="http://www.mblseminars.com/outline?progid=7507&CC=speakerwebsites&utm_source=jane%20bennett&utm_medium=speaker&utm_campaign=speakerwebsites" class="button" target="_blank">Book Webinar now</a>
       </p>
@@ -63,39 +63,39 @@ permalink: /training-personal-injury-solicitors-sevenoaks-kent/
     </div>
 
     <div class="four columns sidebar">
-      <img src="{{ site.baseurl }}images/expert-witness-service.jpg" alt="personal-injury-training-solicitors-sevenoaks-photo"/>
+      <img src="/images/expert-witness-service.jpg" alt="personal-injury-training-solicitors-sevenoaks-photo"/>
       <h2>Who we help</h2>
       <ul>
         <li>
-          <a href="{{ site.baseurl }}who-we-help#pi-insurers">PI insurers</a>
+          <a href="/who-we-help#pi-insurers">PI insurers</a>
         </li>
         <li>
-          <a href="{{ site.baseurl }}who-we-help#pi-lawyers">Personal injury and private client lawyers (via training)</a>
+          <a href="/who-we-help#pi-lawyers">Personal injury and private client lawyers (via training)</a>
         </li>
       </ul>
 
       <h2>Other legal services</h2>
       <ul>
         <li>
-          <a href="{{ site.baseurl }}court-of-protection-solicitors-sevenoaks-kent">Court of protection</a>
+          <a href="/court-of-protection-solicitors-sevenoaks-kent">Court of protection</a>
         </li>
         <li>
-          <a href="{{ site.baseurl }}court-of-protection-solicitors-sevenoaks-kent#deputies">Lay Deputies and Professional Deputies</a>
+          <a href="/court-of-protection-solicitors-sevenoaks-kent#deputies">Lay Deputies and Professional Deputies</a>
         </li>
         <li>
-          <a href="{{ site.baseurl }}elderly-solicitors-sevenoaks-kent">Elderly client law</a>
+          <a href="/elderly-solicitors-sevenoaks-kent">Elderly client law</a>
         </li>
         <li>
-          <a href="{{ site.baseurl }}elderly-solicitors-sevenoaks-kent#community">Community care law</a>
+          <a href="/elderly-solicitors-sevenoaks-kent#community">Community care law</a>
         </li>
         <li>
-          <a href="{{ site.baseurl }}elderly-solicitors-sevenoaks-kent#wills">Wills and probate</a>
+          <a href="/elderly-solicitors-sevenoaks-kent#wills">Wills and probate</a>
         </li>
         <li>
-          <a href="{{ site.baseurl }}personal-injury-trusts-solicitors-sevenoaks-kent">Personal injury trusts</a>
+          <a href="/personal-injury-trusts-solicitors-sevenoaks-kent">Personal injury trusts</a>
         </li>
         <li>
-          <a href="{{ site.baseurl }}expert-witness-personal-injury-solicitors-sevenoaks-kent">Expert witness</a>
+          <a href="/expert-witness-personal-injury-solicitors-sevenoaks-kent">Expert witness</a>
         </li>
       </ul>
 
